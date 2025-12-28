@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    rotate: 0deg;
+
+}
+
+
+
+.container1 {
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: purple;
+    z-index: 1;
+    border: 5px solid white;
+}
+
+
+
+.box {
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    background-color: black;
+    border-radius: 25px;
+
+}
